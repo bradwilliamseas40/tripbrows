@@ -16,6 +16,7 @@
 require 'spec_helper'
 
 describe Rating do
+	
   let(:user) { FactoryGirl.create(:user) }
   before do
     # This code is not idiomatically correct.
