@@ -22,7 +22,7 @@ gem 'pg'
 
 group :development, :test do
 	gem 'rspec-rails','2.13.1'
-	
+	gem 'annotate', '2.4.0'
 	# Guard Gem
 	gem 'guard-rspec','2.5.0'
 	
