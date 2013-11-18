@@ -17,16 +17,5 @@ require 'spec_helper'
 
 describe Rating do
 	
-  let(:user) { FactoryGirl.create(:user) }
-  before do
-    # This code is not idiomatically correct.
-    @rating = Rating.new(weburl: "www.tripadvisor.com", category: "Eat", rating: "1", user_id: user.id)
-  end
-
-  subject { @rating }
-
-  it { should respond_to(:weburl) }
-  it { should respond_to(:category) }
-  it { should respond_to(:rating) }
-  it { should respond_to(:user_id) }
+ pending "add some examples to (or delete) #{__FILE__}"
 end
